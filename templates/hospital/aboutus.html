@@ -1,0 +1,28 @@
+{% extends 'hospital/homebase.html' %}
+
+{% block content %}
+
+<div class="container-fluid" style="min-height: 100vh; background-color: #f0f0f0;">
+  <div class="row justify-content-center align-items-center" style="min-height: 100vh;">
+    <div class="col-md-8">
+      <div class="jumbotron" style="margin-bottom:0px; background-color: white; box-shadow: 0 0 10px rgba(0,0,0,0.1);">
+        <h1 class="display-4" style="text-align:center;">About Us</h1>
+        <p class="lead text-center">This is a Hospital Management System.</p>
+        <hr class="my-4">
+        <p class="text-center">
+          We are here to help you manage your hospital efficiently.<br>
+          Our system provides features for Doctors, Patients and Administrators.
+        </p>
+        <p class="text-center">
+          You can manage appointments, patient records, and more through this platform.
+        </p>
+        <p class="lead text-center">
+          <a class="btn btn-primary btn-lg mx-2" href="/" role="button">Home</a>
+          <a class="btn btn-primary btn-lg mx-2" href="/contactus" role="button">Contact Us</a>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% endblock content %}
